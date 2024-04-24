@@ -22,7 +22,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="3dp"
-        android:scaleType="fitXY"
         android:src="@drawable/group_358" />
 
     <ImageView
@@ -33,16 +32,45 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="590dp"
-        android:scaleType="fitXY"
         android:src="@drawable/group360" />
 
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="-51dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/tombolbiru"
+        app:backgroundTint="@color/blue" />
+
     <ImageView
-        android:id="@+id/frame"
+        android:id="@+id/logiin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="250dp"
-        android:src="@drawable/frame3669" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="285dp"
+        android:src="@drawable/logiiinnn" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background ="@drawable/rectangle481_shape"
+        />
+
+    <ImageView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/register" />
+
 
     <ImageView
         android:layout_width="wrap_content"

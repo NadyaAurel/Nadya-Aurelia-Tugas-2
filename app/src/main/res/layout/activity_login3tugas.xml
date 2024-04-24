@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login3tugas">
+
+        <ImageView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/loginawal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="350dp"
+            android:src="@drawable/katasandi" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle481_shape"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="410dp"
+            />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="430dp"
+            android:src="@drawable/vector11" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="440dp"
+            android:src="@drawable/vector22" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="430dp"
+            android:src="@drawable/vector" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="230dp"
+            android:src="@drawable/email" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle481_shape"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="320dp"
+            android:src="@drawable/vector31" />
+
+        <Button
+            android:id="@+id/img90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle480"
+            app:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="730dp" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="756dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/login2" />
+
+        <ImageView
+            android:id="@+id/img36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/vector44"
+            android:onClick="back" />
+</RelativeLayout>
