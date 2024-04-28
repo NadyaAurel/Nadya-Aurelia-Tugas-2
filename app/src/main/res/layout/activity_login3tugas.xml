@@ -79,7 +79,7 @@
             android:src="@drawable/vector31" />
 
         <Button
-            android:id="@+id/img90"
+            android:id="@+id/btnbiru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle480"

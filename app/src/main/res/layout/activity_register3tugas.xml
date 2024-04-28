@@ -133,7 +133,7 @@
         android:background="@drawable/rectangle481_shape" />
 
     <Button
-        android:id="@+id/img90"
+        android:id="@+id/btnreg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rectangle480"

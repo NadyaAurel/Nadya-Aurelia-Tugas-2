@@ -13,19 +13,13 @@
         android:theme="@style/Theme.Tugas2login"
         tools:targetApi="31">
         <activity
+            android:name=".tbtampilanawal"
+            android:exported="false" />
+        <activity
             android:name=".register3tugas"
             android:exported="false" />
         <activity
             android:name=".login3tugas"
-            android:exported="false" />
-        <activity
-            android:name=".tugas3lopgin"
-            android:exported="false" />
-        <activity
-            android:name=".activity3login"
-            android:exported="false" />
-        <activity
-            android:name=".tugas3login"
             android:exported="false" />
         <activity
             android:name=".activity2register"
