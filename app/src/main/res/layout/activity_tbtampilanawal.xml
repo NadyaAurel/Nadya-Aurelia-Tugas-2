@@ -55,6 +55,13 @@
         android:src="@drawable/hadiahmenarik"
         android:layout_marginTop="700dp" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burger869"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"/>
+
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView2"
@@ -98,7 +105,6 @@
                     android:layout_height="180dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/viewscan" />
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -153,7 +159,74 @@
                     android:layout_margin="5dp"
                     android:background="@color/transparan"
                     android:elevation="0dp"
-                    android:src="@drawable/scantutupbotol_raisa" />
+                    android:src="@drawable/raissakotak" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/totaltutupbotol"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="120dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/temukankoderaissa"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="70dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/raiisa_teks"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_raissakotak"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="65dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/teks30"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="260dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tekstutupbotol"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="250dp"/>
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="125dp"
+                    android:backgroundTint="@color/blue"
+                    android:id="@+id/scanbarcod"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/barcoderaissa"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginLeft="255dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/scancoderaiissa"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginLeft="230dp"/>
+
+
 
             </androidx.cardview.widget.CardView>
 
@@ -182,6 +255,37 @@
                         android:background="@color/transparan"
                         android:elevation="0dp"
                         android:src="@drawable/diskon70hotel" />
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="35dp"
+                        android:backgroundTint="@color/blue"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="55dp"
+                        android:id="@+id/btnreedemvaganza"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tambah_img"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="64dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_1"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="68dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/minus_img"
+                        android:layout_marginTop="64dp"
+                        android:layout_marginLeft="60dp"/>
+
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -238,15 +342,13 @@
                     android:layout_marginLeft="30dp"
                     android:elevation="0dp"
                     android:src="@drawable/voucher_goffod"
-                    android:id="@+id/goffod"/>
+                    android:id="@+id/vouchergofood"/>
+
             </LinearLayout>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/rect491"
-                />
-
-
+                android:src="@drawable/rect491"/>
 
 
 
@@ -254,10 +356,4 @@
 
         </LinearLayout>
     </ScrollView>
-
-
-
-
-
-
 </RelativeLayout>
